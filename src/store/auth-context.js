@@ -22,7 +22,7 @@ export const AuthContextProvider=(props)=>{
     };
 
     const loginHandler=()=>{
-        localStorage.seeItem("isLoggedIn",'1');
+        localStorage.setItem("isLoggedIn",'1');
         setIsLoggedIn(true);
     }
     return(
